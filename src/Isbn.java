@@ -47,6 +47,7 @@ public class Isbn {
             System.out.println("Error while reading input: " + number);
             System.out.println(e.toString());
             System.out.println("Your input may be incorrectly formatted.");
+            System.exit(2);
         }
         // sum operation according to isbn rules
         for(int i = 10; i > 0; i--){
